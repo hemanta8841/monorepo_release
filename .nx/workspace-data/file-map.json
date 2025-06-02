@@ -1,0 +1,255 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.1.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "my_monorepo": [
+        {
+          "file": ".DS_Store",
+          "hash": "15038160363701099237"
+        },
+        {
+          "file": ".git/objects/06/6a943f35de4ac8e2467f8487f70dd4082eb5df",
+          "hash": "11400753281170667059"
+        },
+        {
+          "file": ".git/objects/10/511644abf841f15530402ca9ee233f55f3b74c",
+          "hash": "12064329727071493520"
+        },
+        {
+          "file": ".git/objects/26/b78d10069ff2a8080d737e9d8eb745468364fd",
+          "hash": "1187180039954240781"
+        },
+        {
+          "file": ".git/objects/3c/6c9175c6ac382fc07950da460affd22b90e115",
+          "hash": "861277145016249193"
+        },
+        {
+          "file": ".git/objects/41/8a641fb861e6a32723cde0a0a49283bf364c9d",
+          "hash": "3383087374721495994"
+        },
+        {
+          "file": ".git/objects/49/5f5f96a15fe9daaf5259313b88d0bf16eb8ef0",
+          "hash": "2592848398391515133"
+        },
+        {
+          "file": ".git/objects/4d/26345030e0da07ba5ed59ab951e98a463e89b4",
+          "hash": "12704658661958959030"
+        },
+        {
+          "file": ".git/objects/50/5ec6dda229fa9f805ba02c326cb4a522adb4f1",
+          "hash": "15513152801382478502"
+        },
+        {
+          "file": ".git/objects/76/0375a104628b6c7bb19ffbdb94e20f7390bc16",
+          "hash": "594739041760529781"
+        },
+        {
+          "file": ".git/objects/8e/d014ca2976150a5a91a957f965d908862b506d",
+          "hash": "826880092483026843"
+        },
+        {
+          "file": ".git/objects/97/da1dc70753c3c021a03baebbc9b46ea8b07678",
+          "hash": "16166936464089883232"
+        },
+        {
+          "file": ".git/objects/9e/26dfeeb6e641a33dae4961196235bdb965b21b",
+          "hash": "16612432564154210891"
+        },
+        {
+          "file": ".git/objects/a3/380dcc49c43517d145e2546520d445e0302704",
+          "hash": "14599765109872028155"
+        },
+        {
+          "file": ".git/objects/b0/24f26d356dedd4be1394755e9f236c4f976a5c",
+          "hash": "10612107664103575425"
+        },
+        {
+          "file": ".git/objects/b3/000b5447647aaa668dd5f5be80802ab17cf43e",
+          "hash": "1147859763697925324"
+        },
+        {
+          "file": ".git/objects/b4/c58a7825a56aaa81b33a92f03eaa3b94b37c54",
+          "hash": "14344638000760908284"
+        },
+        {
+          "file": ".git/objects/be/55d2f4c2f7448a284717ef3abdb37e75402f69",
+          "hash": "440586788952938617"
+        },
+        {
+          "file": ".git/objects/c2/e3d469de8f5d889d5402adb8c3fc728dcb9f9d",
+          "hash": "4480285276149257759"
+        },
+        {
+          "file": ".git/objects/c4/34a60cc8994db54d81dd446c731a03e61b2db0",
+          "hash": "13549130890231261153"
+        },
+        {
+          "file": ".git/objects/e3/1127fa40d0813a185b78e0d97ffbbb29b1798b",
+          "hash": "10086333095116003384"
+        },
+        {
+          "file": ".git/objects/e3/8fd0cb6befc0d934ff2bf32fa2388742f94f8a",
+          "hash": "531966296871178571"
+        },
+        {
+          "file": ".git/objects/e3/e9d1d00671ad6f17259f17602f761bbf7c97bf",
+          "hash": "15090702673813868235"
+        },
+        {
+          "file": ".git/objects/fa/52b971d47e82519c4f2a2c55483c339e974391",
+          "hash": "8132931357501378420"
+        },
+        {
+          "file": ".nx/workspace-data/d/server-process.json",
+          "hash": "10872929626934801140"
+        },
+        {
+          "file": ".nx/workspace-data/file-map.json",
+          "hash": "3549919943724374902"
+        },
+        {
+          "file": ".nx/workspace-data/nx_files.nxt",
+          "hash": "5548486733244329728"
+        },
+        {
+          "file": ".nx/workspace-data/project-graph.json",
+          "hash": "9972898140798429217"
+        },
+        {
+          "file": ".nx/workspace-data/source-maps.json",
+          "hash": "18027862223337059697"
+        },
+        {
+          "file": ".nx/workspace-data/tsc-2568428459166798129.hash",
+          "hash": "1389868326933519382"
+        },
+        {
+          "file": ".nx/workspace-data/tsconfig-files.hash",
+          "hash": "4293857333309304781"
+        },
+        {
+          "file": "monorepo_release/.git/HEAD",
+          "hash": "6460185820263248482"
+        },
+        {
+          "file": "monorepo_release/.git/config",
+          "hash": "17319179033973013056"
+        },
+        {
+          "file": "monorepo_release/.git/description",
+          "hash": "6589616779641096119"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/applypatch-msg.sample",
+          "hash": "3740124940738663445"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/commit-msg.sample",
+          "hash": "11930680668000581900"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/fsmonitor-watchman.sample",
+          "hash": "5519580754951798083"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/post-update.sample",
+          "hash": "16498975149454253769"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/pre-applypatch.sample",
+          "hash": "1595391782482835178"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/pre-commit.sample",
+          "hash": "10258126878297473471"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/pre-merge-commit.sample",
+          "hash": "5691533144974613569"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/pre-push.sample",
+          "hash": "3666369642558647280"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/pre-rebase.sample",
+          "hash": "15784748353859782246"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/pre-receive.sample",
+          "hash": "8999430056057037490"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/prepare-commit-msg.sample",
+          "hash": "4009645067798984574"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/push-to-checkout.sample",
+          "hash": "5194610557431485830"
+        },
+        {
+          "file": "monorepo_release/.git/hooks/update.sample",
+          "hash": "14696759095365231402"
+        },
+        {
+          "file": "monorepo_release/.git/info/exclude",
+          "hash": "2084763735014985388"
+        },
+        {
+          "file": "nx.json",
+          "hash": "16807324892718861995"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "17064759667881736480"
+        },
+        {
+          "file": "package.json",
+          "hash": "882720573208302125",
+          "deps": [
+            "npm:@nx/js",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:nx"
+          ]
+        }
+      ],
+      "lib01": [
+        {
+          "file": "packages/lib01/README.md",
+          "hash": "4706966183203999880"
+        },
+        {
+          "file": "packages/lib01/package.json",
+          "hash": "14583224356613516704"
+        }
+      ],
+      "lib02": [
+        {
+          "file": "packages/lib02/package.json",
+          "hash": "15094471642928470380"
+        }
+      ]
+    }
+  }
+}
