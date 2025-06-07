@@ -10,12 +10,12 @@
       }
     },
     "version": {
-      "manifestRootsToUpdate": [
-        "{packageRoot}"
-
-      ],
-      "conventionalCommits": false
- 
+  
+      "conventionalCommits": false,
+      "generatorOptions": {
+        "packageRoot": "dist/packages/{projectName}",
+        "currentVersionResolver": "git-tag"
+      }
     },
     "git": {
       "commit": true,
