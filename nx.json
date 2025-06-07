@@ -1,26 +1,32 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "release": {
-    "projects": ["packages/*"],
-    "projectsRelationship": "independent",
+    "releaseTagPattern": "{projectName}@{version}",
+    "changelog": {
+      "projectChangelogs" : true
+    },
     "version": {
-      "conventionalCommits": true
-    }
-  },
-  "plugins": [
-    {
-      "plugin": "@nx/js/typescript",
-      "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
-        "build": {
-          "targetName": "build",
-          "configName": "tsconfig.lib.json",
-          "buildDepsName": "build-deps",
-          "watchDepsName": "watch-deps"
-        }
+      "preVersionCommand": "nx run-many --target=build",
+      "conventionalCommits": false,
+      "generatorOptions": {
+        "packageRoot": "dist/libs/{projectName}",
+        "currentVersionResolver": "git-tag"
+      }
+    },
+    "git": {
+      "commit": true,
+      "commitMessage": "chore(release): {version}",
+      "stageChanges": true,
+      "tag": true,
+      "tagArgs": "--sign",
+      "push": true,
+      "currentVersionResolver": "git-tag"
+    },
+    "conventionalCommits": {
+      "types": {
+        "docs": false
       }
     }
-  ]
+}
+
 }
