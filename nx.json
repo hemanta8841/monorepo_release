@@ -1,17 +1,21 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "release": {
+    "projectsRelationship": "independent",
     "releaseTagPattern": "{projectName}@{version}",
     "changelog": {
-      "projectChangelogs" : true
+      "projectChangelogs" : true,
+      "workspaceChangelog":{
+        "createRelease":"github"
+      }
     },
     "version": {
-      "preVersionCommand": "nx run-many --target=build",
-      "conventionalCommits": false,
-      "generatorOptions": {
-        "packageRoot": "dist/libs/{projectName}",
-        "currentVersionResolver": "git-tag"
-      }
+      "manifestRootsToUpdate": [
+        "{packageRoot}"
+
+      ],
+      "conventionalCommits": false
+ 
     },
     "git": {
       "commit": true,
@@ -27,6 +31,13 @@
         "docs": false
       }
     }
+},
+"targetDefaults": {
+  "nx-release-publish":{
+    "options": {
+      "packageRoot" : "dist/packages/{projectName}"
+    }
+  }
 }
 
 }
