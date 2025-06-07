@@ -13,7 +13,7 @@
   
       "conventionalCommits": false,
       "generatorOptions": {
-        "packageRoot": "dist/packages/{projectName}",
+        "packageRoot": "packages/{projectName}",
         "currentVersionResolver": "git-tag"
       }
     },
@@ -35,7 +35,7 @@
 "targetDefaults": {
   "nx-release-publish":{
     "options": {
-      "packageRoot" : "dist/packages/{projectName}"
+      "packageRoot" : "packages/{projectName}"
     }
   }
 }
