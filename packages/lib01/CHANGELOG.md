@@ -1,3 +1,7 @@
+## 1.8.0 (2025-06-07)
+
+This was a version bump only for lib01 to align it with other projects, there were no code changes.
+
 ## 1.7.0 (2025-06-07)
 
 This was a version bump only for lib01 to align it with other projects, there were no code changes.
