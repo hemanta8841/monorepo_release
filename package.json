@@ -1,6 +1,6 @@
 {
   "name": "my_monorepo",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hemanta8841/my_monorepo.git"
+    "url": "git+https://github.com/hemanta8841/monorepo_release.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hemanta8841/my_monorepo/issues"
+    "url": "https://github.com/hemanta8841/monorepo_release/issues"
   },
-  "homepage": "https://github.com/hemanta8841/my_monorepo#readme",
+  "homepage": "https://github.com/hemanta8841/monorepo_release#readme",
   "description": "",
   "devDependencies": {
     "@nx/js": "^21.1.2",
