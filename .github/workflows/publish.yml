@@ -3,8 +3,10 @@ name: Publish
 
 on:
   push:
-    tags:
-      - lib*
+     branches :
+      - main
+     
+       
 
 jobs:
   test:
@@ -36,7 +38,7 @@ jobs:
         shell: bash
 
       - name: Publish packages
-        run: nx release publish --first-release
+        run: npx nx release publish --first-release
         shell: bash
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
