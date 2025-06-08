@@ -36,7 +36,7 @@
 "targetDefaults": {
   "nx-release-publish":{
     "options": {
-      "packageRoot" : "dist/packages/{projectName}"
+      "options": "latest"
     }
   }
 }
