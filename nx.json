@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "release": {
+    
     "projectsRelationship": "independent",
     "releaseTagPattern": "{projectName}@{version}",
     "changelog": {
@@ -13,7 +14,7 @@
   
       "conventionalCommits": false,
       "generatorOptions": {
-        "packageRoot": "packages/{projectName}",
+        "packageRoot": "dist/packages/{projectName}",
         "currentVersionResolver": "git-tag"
       }
     },
@@ -35,7 +36,7 @@
 "targetDefaults": {
   "nx-release-publish":{
     "options": {
-      "packageRoot" : "packages/{projectName}"
+      "packageRoot" : "dist/packages/{projectName}"
     }
   }
 }
