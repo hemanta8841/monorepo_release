@@ -1,3 +1,7 @@
+## 2.16.0 (2025-06-09)
+
+This was a version bump only for @hemanta1006/my_monorepo to align it with other projects, there were no code changes.
+
 ## 2.15.0 (2025-06-09)
 
 This was a version bump only for @hemanta1006/my_monorepo to align it with other projects, there were no code changes.
