@@ -1,3 +1,7 @@
+## 2.18.0 (2025-06-09)
+
+This was a version bump only for @monorepo_release/lib01 to align it with other projects, there were no code changes.
+
 ## 2.16.0 (2025-06-09)
 
 This was a version bump only for @monorepo_release/lib01 to align it with other projects, there were no code changes.
