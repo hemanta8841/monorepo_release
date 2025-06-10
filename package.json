@@ -1,6 +1,6 @@
 {
   "name": "@hemanta1006/my_monorepo",
-  "version": "2.19.0",
+  "version": "2.20.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
