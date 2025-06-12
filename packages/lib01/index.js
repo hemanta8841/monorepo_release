@@ -1,1 +1,1 @@
-console.log("Hello lib01")
+export let mylib = "lib01";
